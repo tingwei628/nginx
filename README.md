@@ -5,7 +5,7 @@
 <pre>$brew intsall nginx</pre>
 
 ###2. 進入該目錄  
-<pre>cd /usr/local/etc/nginx</pre>
+<pre>$cd /usr/local/etc/nginx</pre>
     
 ###3打開 nginx.conf 設定參數 
 <pre>$vim nginx.conf</pre>
@@ -40,3 +40,4 @@
  
 - 註1 參考 http://stackoverflow.com/questions/12397175/how-do-i-close-an-open-port-from-the-terminal-on-the-mac/
 - 註2 參考 https://coderwall.com/p/dgwwuq/installing-nginx-in-mac-os-x-maverick-with-homebrew/
+- 註3 如果沒有vim編輯器, 請下載
