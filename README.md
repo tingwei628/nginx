@@ -2,13 +2,13 @@
 ###How to install nginx on mac
 
 ###1. 用brew 安裝
-    <pre>$brew intsall nginx</pre>
+<pre>$brew intsall nginx</pre>
 
 ###2. 進入該目錄  
-    <pre>cd /usr/local/etc/nginx</pre>
+<pre>cd /usr/local/etc/nginx</pre>
     
 ###3打開 nginx.conf 設定參數 
-    <pre>$vim nginx.conf<pre>
+<pre>$vim nginx.conf</pre>
     
 ###4. 設定該首頁檔案的路徑
 例如:  root  “/Users/yourusername/Desktop/ExtJs_practice” 和 server{listen:8082 } 
