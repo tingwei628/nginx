@@ -19,9 +19,10 @@
 如果開啟失敗，有可能port 被別的程式使用
 
 ###6. 進入頁面 localhost:8082/index.html 
-意思是在網址列輸入localhost:8082/index.html
+意思是在網址列輸入localhost:8082/index.html 
+看到畫面了!!! 
 
-***
+###7.補充說明
 - 如果看到是403 表示沒有權限，因此要設定該檔案權限
   輸入<pre>$chmod 777 /Users/yourusername/Desktop/ExtJs_practice/index.html</pre>
   請參考說明: http://www.hi-docs.com/linux/chmod.html 
