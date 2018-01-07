@@ -1,28 +1,28 @@
-#nginx
-###How to install nginx on mac
+# nginx
+### How to install nginx on mac
 
-###1. 用brew 安裝
+### 1. 用brew 安裝
 <pre>$brew intsall nginx</pre>
 
-###2. 進入該目錄  
+### 2. 進入該目錄  
 <pre>$cd /usr/local/etc/nginx</pre>
     
-###3打開 nginx.conf 設定參數 
+### 3打開 nginx.conf 設定參數 
 <pre>$vim nginx.conf</pre>
     
-###4. 設定該首頁檔案的路徑
+### 4. 設定該首頁檔案的路徑
 例如:  root  “/Users/yourusername/Desktop/ExtJs_practice” 和 server{listen:8082 } 
 註: 不一定要8082
 
-###5.開啟nginx
+### 5.開啟nginx
 <pre>$nginx</pre>
 如果開啟失敗，有可能port 被別的程式使用
 
-###6. 進入頁面 localhost:8082/index.html 
+### 6. 進入頁面 localhost:8082/index.html 
 意思是在網址列輸入localhost:8082/index.html 
 看到畫面了!!! 
 
-###7.補充說明
+### 7.補充說明
 - 如果看到是403 表示沒有權限，因此要設定該檔案權限
   輸入<pre>$chmod 777 /Users/yourusername/Desktop/ExtJs_practice/index.html</pre>
   請參考說明: http://www.hi-docs.com/linux/chmod.html 
